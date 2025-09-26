@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="600" viewBox="0 0 2000 600">
+  <!-- Background transparent -->
+  <rect width="2000" height="600" fill="none"/>
+  
+  <!-- Golden arch -->
+  <path d="M300 400 A150 150 0 1 1 600 400" fill="none" stroke="#f0b05c" stroke-width="40"/>
+  
+  <!-- Teal wave -->
+  <path d="M250 420 C400 500, 550 300, 700 420" fill="none" stroke="#479eae" stroke-width="40" stroke-linecap="round"/>
+  
+  <!-- Brand text -->
+  <text x="800" y="350" font-family="Inter, sans-serif" font-size="160" font-weight="700" fill="#f0b05c">
+    ABDELKARIM
+  </text>
+  <text x="800" y="500" font-family="Inter, sans-serif" font-size="140" font-weight="600" fill="#479eae">
+    EL GHANI
+  </text>
+</svg>

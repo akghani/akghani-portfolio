@@ -1,0 +1,27 @@
+---
+title: "About Me"
+title-block-banner: assets/title-block-banner.jpeg
+about:
+  id: hero-heading
+  template: trestles
+  image: assets/profile2.jpg
+format: html
+---
+
+::: {#hero-heading}
+I’m a passionate Research Data Analyst working at the intersection of neuroscience, psychology, and pharmacology. I transform complex datasets into transparent, reproducible insights through R-based pipelines, Quarto documentation, and SPSS analyses. My clear visualizations and concise reports empower both research teams and stakeholders to make data-driven decisions with confidence.
+
+## Education
+
+-   **MSc in Applied Neuroscience in Human Development**, Leiden University
+-   **Premaster Education and Child Studies**, Leiden University
+-   **BSc in Biopharmaceutical Sciences**, Leiden University
+
+## Research Interests
+
+-   Machine Learning
+-   Data Visualization
+-   Natural Language Processing
+-   Big Data Analytics
+-   Artificial Intelligence
+:::

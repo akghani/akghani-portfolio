@@ -1,0 +1,28 @@
+---
+title: "Experience"
+page-layout: full
+---
+
+::::: experience-grid
+::: card
+### Research Assistant
+![](assets/eur-logo.svg){.exp-logo}
+**Erasmus School of Social and Behavioural Sciences (ESSB Rotterdam)**\
+*Apr 2023 – Present · Rotterdam, NL*
+
+-   Developed and managed a comprehensive dataset based on international surveys for an Erasmus+ funded project.\
+-   Created R-scripts in R-Markdown to document data workflows and present findings.\
+-   Conducted statistical analyses, visualized research results, and contributed to international conferences and scientific journals.\
+-   Supported open science initiatives by documenting and sharing code on the Open Science Framework (OSF).\
+:::
+
+::: card
+### Research Intern
+![](assets/emc-logo.svg){.exp-logo}**Erasmus Medical Center**\
+*Oct 2019 – Aug 2020 · Rotterdam, NL*
+-   Developed and managed a comprehensive dataset based on international surveys for an Erasmus+ funded project.\
+-   Created R-scripts in R-Markdown to document data workflows and present findings.\
+-   Conducted statistical analyses, visualized research results, and contributed to international conferences and scientific journals.\
+-   Supported open science initiatives by documenting and sharing code on the Open Science Framework (OSF).\
+:::
+:::::

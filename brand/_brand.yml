@@ -1,0 +1,27 @@
+color:
+  palette:
+    primary:   "#07418C"   # deep blue (navbar, headings)
+    secondary: "#529AD9"   # sky blue (buttons, highlights)
+    accent:    "#5CF2F2"   # aqua (hover, accents)
+    positive:  "#BDF26D"   # lime green (success)
+    light:     "#F2F2F2"   # background
+    dark:      "#111827"   # body text
+    muted:     "#6B7280"   # subtitles, neutral gray
+    background: light
+    foreground: dark
+
+logo:
+  images:
+    icon: logos/favicon.png
+    header: logos/logo.png
+    full: logos/logo.svg
+  small: icon
+  medium: header
+  large: full
+
+typography:
+  fonts:
+    - family: Jura
+      source: google
+  base: Jura
+  headings: Jura

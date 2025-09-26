@@ -1,0 +1,64 @@
+project:
+  type: website
+  output-dir: docs
+
+  preview: 
+    port: 5555
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+  render:
+    - "*.qmd"
+    - "*.md"
+    - "!etc/"
+
+freeze: auto
+
+website:
+  favicon: assets/favicon.ico
+  back-to-top-navigation: true
+
+  navbar:
+    pinned: true
+    logo: assets/logo6.svg
+    logo-alt: "Abdelkarim el Ghani"
+    right:
+      - text: About
+        href: about.qmd
+      - text: Experience
+        href: experience.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: Publications
+        href: publications.qmd
+      - icon: github
+        href: https://github.com/akghani
+        target: _blank
+      - icon: linkedin
+        href: https://www.linkedin.com/in/abdelkarimelghani/
+        target: _blank
+
+  page-footer:
+    left: "{{< fa copyright >}} 2025 Abdelkarim el Ghani"
+    right: Site built with [{{< fa brands github title=\"GitHub\" >}}](https://github.com/akghani/akghani.github.io){target=_blank}, [{{< fa brands r-project title=\"R Project\" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
+
+#brand: brand/_brand.yml
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles/styles.scss
+#      - brand/_brand.yml
+    highlight-style: github
+    code-fold: true
+    code-summary: "Show/Hide Code"
+    smooth-scroll: true
+    toc: false
+    page-layout: full
+
+execute:
+  echo: false
+  error: false
+  warning: false

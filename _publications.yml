@@ -1,0 +1,19 @@
+publications:
+  - title: "Interpretable Models for Social Data"
+    authors: "Your Name, A. Colleague"
+    venue: "Journal of Machine Learning Research"
+    year: 2024
+    url: "https://doi.org/10.0000/example"
+    tags: ["ml","interpretable"]
+  - title: "Behavioral Patterns in Social Media"
+    authors: "Your Name, B. Colleague"
+    venue: "Proceedings of WWW"
+    year: 2023
+    url: "https://doi.org/10.0000/example2"
+    tags: ["social","applied"]
+  - title: "Open toolbox for explainability"
+    authors: "Your Name"
+    venue: "Journal of Open Source Software"
+    year: 2022
+    url: "https://doi.org/10.0000/joss"
+    tags: ["software","open-source"]

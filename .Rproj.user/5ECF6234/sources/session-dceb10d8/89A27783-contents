@@ -1,0 +1,213 @@
+/*-- scss:defaults --*/
+
+// Import font
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;600;700&display=swap');
+
+$font-main: 'Jura', sans-serif;
+
+// Globals
+$radius: 12px;
+$transition: 240ms cubic-bezier(.2,.9,.3,1);
+
+// Define theme colors
+:root {
+  --quarto-color-primary: #2B6CB0; // lighter blue, matches the logo
+  --quarto-color-secondary: #529AD9;
+  --quarto-color-light: #F2F2F2;
+  --quarto-color-dark: #111827;
+  --quarto-color-muted: #6B7280;
+  --quarto-color-positive: #BDF26D;
+  --quarto-color-foreground: #ffffff;
+}
+
+/*-- scss:rules --*/
+
+body {
+  margin: 0;
+  background: var(--quarto-color-light);
+  color: var(--quarto-color-dark);
+  font-family: $font-main;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+// Navbar
+.navbar {
+  background: var(--quarto-color-primary);
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.navbar a {
+  color: var(--quarto-color-foreground);
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: all $transition;
+}
+
+.navbar a:hover {
+  background: darken(#2B6CB0, 10%); // darker hover shade of primary
+  color: #ffffff;
+}
+
+// Logo sizing
+.navbar-brand img {
+  max-height: 100px;
+  width: auto;
+  margin-top: -4px;
+  margin-bottom: -4px;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand img {
+    max-height: 55px;
+  }
+}
+
+// Hero
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 2rem;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.hero h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin: 0 0 0.75rem 0;
+  color: var(--quarto-color-primary);
+}
+
+.hero p {
+  margin: 0 0 1.4rem 0;
+  color: var(--quarto-color-muted);
+  font-size: 1.05rem;
+}
+
+// Buttons
+.btn {
+  padding: 0.75rem 1.1rem;
+  border-radius: 10px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  border: none;
+  cursor: pointer;
+  transition: transform $transition, box-shadow $transition;
+}
+
+.btn-primary {
+  background: var(--quarto-color-secondary);
+  color: var(--quarto-color-light);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.btn-primary:hover {
+  background: darken(#529AD9, 10%);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid var(--quarto-color-primary);
+  color: var(--quarto-color-primary);
+}
+
+.btn-outline:hover {
+  background: var(--quarto-color-primary);
+  color: var(--quarto-color-light);
+}
+
+// Cards
+.card {
+  background: var(--quarto-color-light);
+  border-radius: $radius;
+  padding: 1.2rem;
+  border: 1px solid rgba(0,0,0,0.08);
+  transition: transform $transition, box-shadow $transition;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+}
+
+// Footer
+.site-footer {
+  padding: 2rem 0;
+  color: var(--quarto-color-dark);
+  text-align: center;
+  font-size: 0.95rem;
+  border-top: 1px solid rgba(0,0,0,0.08);
+  background: var(--quarto-color-primary);
+}
+
+.nav-footer a {
+  color: #fafafa;
+  text-decoration-color: var(--quarto-color-positive);
+  transition: color $transition, text-decoration-color $transition;
+}
+
+.nav-footer a:hover {
+  color: darken(#fafafa, 12%);
+  text-decoration-color: darken(#BDF26D, 10%);
+}
+
+
+
+/* Experience Page Adjustments */
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.exp-logo {
+  width: 64px;       /* larger logo */
+  height: 64px;
+  margin-right: 0.75rem;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.card h3 {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.4rem;
+  margin: 0;
+  color: var(--quarto-color-primary, #07418C);
+  font-weight: 700;
+}
+
+
+/* Institution name styling */
+.card p,
+.card strong {
+  font-weight: 500;
+  color: var(--quarto-color-secondary, #529AD9);
+  margin: 0.25rem 0 0.5rem 0;
+  display: block;
+}
+
+
+// Utility states
+.success {
+  color: var(--quarto-color-positive);
+}
+
+.info {
+  color: var(--quarto-color-secondary);
+}
+
+/* Responsive tweaks */
+@media (max-width: 980px) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 2rem 0;
+  }
+}

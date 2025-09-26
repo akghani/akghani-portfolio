@@ -1,0 +1,26 @@
+---
+title: ""
+title-block-banner: assets/title-block-banner.jpeg
+image: assets/profile2.jpg
+toc: false
+about:
+  id: hero-heading
+  template: jolla
+  image-shape: round
+  image-width: 15em
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/abdelkarim-el-ghani/
+      target: _blank  
+    - icon: github
+      text: Github
+      href: https://www.github.com/akghani
+      target: _blank
+---
+
+## Hi — I'm [Abdelkarim el Ghani]{.animated-accent}.
+
+::: {#hero-heading}
+I build interpretable machine learning systems and study social behavior at scale. My [work](projects.qmd) spans methods development and applied projects in public policy and computational social science.
+:::

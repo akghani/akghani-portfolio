@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "I build interpretable machine learning systems and study social behavior at scale.\nMy work spans methods development and applied projects in public policy and computational social science.\n\n{fa icon=“file-alt”} View CV\n{fa icon=“envelope”} Contact\n\n\n\n\n“Interpretable Models for Social Data” — Journal of ML, 2024\n\n\n\nAuthor of yourtool, a package for explainability.\n\n\n\n\n\n\nprofile\n\n\n\n\nAssistant Professor, Department — Institution\n\n{fa icon=“map-marker-alt”} City, Country\n{fa icon=“envelope”} you@institution.edu\n\n\n\n\n\n© 2025 Abdelkarim el Ghani · {fa icon=“heart”} ·\n{fa brands icon=“github”} GitHub ·\n{fa brands icon=“r-project”} R Project ·\nQuarto"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n\n[1] 2"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Selected Projects\n\n\n&lt;div class=\"project\"&gt;\n  &lt;h4&gt;Project One&lt;/h4&gt;\n  &lt;p class=\"small\"&gt;A summary of a project that used interpretable ML to analyze social behavior. &lt;a href=\"https://github.com/yourusername/project-one\"Repo&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;\n\n&lt;div class=\"project\"&gt;\n  &lt;h4&gt;Project Two&lt;/h4&gt;\n  &lt;p class=\"small\"&gt;Tooling and pipelines for reproducible experiments. &lt;a href=\"https://github.com/yourusername/project-two\"Repo&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;\n\n&lt;div class=\"project\"&gt;\n  &lt;h4&gt;Project Three&lt;/h4&gt;\n  &lt;p class=\"small\"&gt;Large-scale observational analysis of public data. &lt;a href=\"https://github.com/yourusername/project-three\"Repo&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Publications\n\n\n&lt;label class=\"small\"&gt;Filter by tag:&lt;/label&gt;\n&lt;label class=\"small\"&gt;&lt;input data-pub-filter type=\"checkbox\" value=\"ml\" /&gt; Machine Learning&lt;/label&gt;\n&lt;label class=\"small\"&gt;&lt;input data-pub-filter type=\"checkbox\" value=\"interpretable\" /&gt; Interpretable&lt;/label&gt;\n&lt;label class=\"small\"&gt;&lt;input data-pub-filter type=\"checkbox\" value=\"social\" /&gt; Social&lt;/label&gt;\n&lt;label class=\"small\"&gt;&lt;input data-pub-filter type=\"checkbox\" value=\"software\" /&gt; Software&lt;/label&gt;\n\n\n\n&lt;div class=\"pub-item\" data-tags=\"ml,interpretable\"&gt;\n  &lt;strong&gt;Interpretable Models for Social Data&lt;/strong&gt;\n  &lt;div class=\"pub-meta\"&gt;&lt;span class=\"small\"&gt;Your Name, A. Colleague — JMLR (2024)&lt;/span&gt; · &lt;a href=\"https://doi.org/10.0000/example\"&gt;doi&lt;/a&gt;&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=\"pub-item\" data-tags=\"social,applied\"&gt;\n  &lt;strong&gt;Behavioral Patterns in Social Media&lt;/strong&gt;\n  &lt;div class=\"pub-meta\"&gt;&lt;span class=\"small\"&gt;Your Name, B. Colleague — WWW (2023)&lt;/span&gt; · &lt;a href=\"https://doi.org/10.0000/example2\"&gt;doi&lt;/a&gt;&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=\"pub-item\" data-tags=\"software,open-source\"&gt;\n  &lt;strong&gt;Open toolbox for explainability&lt;/strong&gt;\n  &lt;div class=\"pub-meta\"&gt;&lt;span class=\"small\"&gt;Your Name — JOSS (2022)&lt;/span&gt; · &lt;a href=\"https://doi.org/10.0000/joss\"&gt;doi&lt;/a&gt;&lt;/div&gt;\n&lt;/div&gt;"
+  },
+  {
+    "objectID": "index.html#hi-im-your-name.",
+    "href": "index.html#hi-im-your-name.",
+    "title": "Abdelkarim's Portfolio",
+    "section": "",
+    "text": "I build interpretable machine learning systems and study social behavior at scale.\nMy work spans methods development and applied projects in public policy and computational social science.\n\n View CV  Contact\n\n\n\n&lt;h3&gt;Recent paper&lt;/h3&gt;\n&lt;p class=\"small\"&gt;\"Interpretable Models for Social Data\" — *Journal of ML*, 2024&lt;/p&gt;\n\n\n&lt;h3&gt;Open-source&lt;/h3&gt;\n&lt;p class=\"small\"&gt;Author of &lt;a href=\"https://github.com/yourusername/yourtool\"&gt;yourtool&lt;/a&gt;, a package for explainability.&lt;/p&gt;"
+  },
+  {
+    "objectID": "index.html#hi-im-abdelkarim-el-ghani.",
+    "href": "index.html#hi-im-abdelkarim-el-ghani.",
+    "title": "Home",
+    "section": "",
+    "text": "I build interpretable machine learning systems and study social behavior at scale.\nMy work spans methods development and applied projects in public policy and computational social science.\n\n{fa icon=“file-alt”} View CV\n{fa icon=“envelope”} Contact\n\n\n\n\n“Interpretable Models for Social Data” — Journal of ML, 2024\n\n\n\nAuthor of yourtool, a package for explainability.\n\n\n\n\n\n\nprofile\n\n\n\n\nAssistant Professor, Department — Institution\n\n{fa icon=“map-marker-alt”} City, Country\n{fa icon=“envelope”} you@institution.edu"
+  }
+]

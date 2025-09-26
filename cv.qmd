@@ -1,0 +1,6 @@
+---
+title: "cv"
+format: html
+---
+
+[![My Skills](https://skillicons.dev/icons?i=py,r,css,wasm)](https://skillicons.dev)
