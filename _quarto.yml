@@ -25,6 +25,7 @@ website:
     logo-alt: "Abdelkarim el Ghani"
     right:
       - text: About
+        icon: person-circle
         href: about.qmd
       - text: Experience
         href: experience.qmd
@@ -40,6 +41,7 @@ website:
         target: _blank
 
   page-footer:
+    border: true
     left: "{{< fa copyright >}} 2025 Abdelkarim el Ghani"
     right: Site built with [{{< fa brands github title=\"GitHub\" >}}](https://github.com/akghani/akghani.github.io){target=_blank}, [{{< fa brands r-project title=\"R Project\" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
 
@@ -56,7 +58,7 @@ format:
     code-summary: "Show/Hide Code"
     smooth-scroll: true
     toc: false
-    page-layout: full
+    page-layout: article
 
 execute:
   echo: false

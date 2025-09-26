@@ -47,7 +47,7 @@ body {
 }
 
 .navbar a:hover {
-  background: darken(#2B6CB0, 10%); // darker hover shade of primary
+  background: darken(#2B6CB0, 10%);
   color: #ffffff;
 }
 
@@ -157,43 +157,51 @@ body {
   text-decoration-color: darken(#BDF26D, 10%);
 }
 
+/* ---------------------- */
+/* CV / Experience Layout */
+/* ---------------------- */
 
-
-/* Experience Page Adjustments */
-.experience-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
+.cv-entry {
+  margin-bottom: 2.5rem;
 }
 
-.exp-logo {
-  width: 64px;       /* larger logo */
-  height: 64px;
-  margin-right: 0.75rem;
-  vertical-align: middle;
-  display: inline-block;
+.cv-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.25rem;
 }
 
-.card h3 {
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 1.4rem;
+.cv-logo {
+  width: 100px;     /* visible but balanced */
+  height: auto;
+  flex-shrink: 0;
+}
+
+.cv-header h3 {
   margin: 0;
-  color: var(--quarto-color-primary, #07418C);
+  font-size: 1.25rem;
   font-weight: 700;
+  color: var(--quarto-color-primary);
 }
 
-
-/* Institution name styling */
-.card p,
-.card strong {
-  font-weight: 500;
-  color: var(--quarto-color-secondary, #529AD9);
-  margin: 0.25rem 0 0.5rem 0;
-  display: block;
+.role {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--quarto-color-secondary);
 }
 
+.cv-date {
+  font-size: 0.95rem;
+  color: var(--quarto-color-muted);
+  font-style: italic;
+}
+
+.cv-entry ul {
+  margin-top: 0.5rem;
+  padding-left: 1.2rem;
+  line-height: 1.6;
+}
 
 // Utility states
 .success {
@@ -209,5 +217,9 @@ body {
   .hero {
     grid-template-columns: 1fr;
     padding: 2rem 0;
+  }
+
+  .cv-logo {
+    width: 70px; /* shrink logos on small screens */
   }
 }

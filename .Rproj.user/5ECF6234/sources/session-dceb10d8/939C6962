@@ -3,7 +3,7 @@
     "path": "~/Dropbox/Github/akghani-portfolio/experience.qmd",
     "project_path": "experience.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "2070074104",
     "contents": "",
     "dirty": false,
     "created": 1758884261493.0,
@@ -12,7 +12,7 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "8,0",
+        "cursorPosition": "5,0",
         "scrollLine": "0",
         "rmdVisualMode": "false",
         "rmdVisualCollapsedChunks": "",
@@ -21,11 +21,11 @@
         "docOutlineVisible": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1758909463,
+    "lastKnownWriteTime": 1758915180,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1758909463945,
+    "last_content_update": 1758915180157,
     "read_only": false,
     "read_only_alternatives": []
 }

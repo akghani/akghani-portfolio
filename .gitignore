@@ -1,1 +1,10 @@
+.Renviron
 /.quarto/
+/_site/
+.Rproj.user
+.Rhistory
+.Rdata
+.httr-oauth
+.DS_Store
+.quarto
+*.psd

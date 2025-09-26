@@ -17,6 +17,9 @@ about:
       text: Github
       href: https://www.github.com/akghani
       target: _blank
+anchor-sections: false
+execute:
+  freeze: true
 ---
 
 ## Hi — I'm [Abdelkarim el Ghani]{.animated-accent}.
