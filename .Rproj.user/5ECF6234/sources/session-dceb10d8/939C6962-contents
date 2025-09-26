@@ -18,7 +18,8 @@ page-layout: full
 
 ::: card
 ### Research Intern
-![](assets/emc-logo.svg){.exp-logo}**Erasmus Medical Center**\
+![](assets/emc-logo.svg){.exp-logo}
+**Erasmus Medical Center**\
 *Oct 2019 – Aug 2020 · Rotterdam, NL*
 -   Developed and managed a comprehensive dataset based on international surveys for an Erasmus+ funded project.\
 -   Created R-scripts in R-Markdown to document data workflows and present findings.\
