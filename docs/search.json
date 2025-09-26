@@ -21,6 +21,13 @@
     "text": "I build interpretable machine learning systems and study social behavior at scale. My work spans methods development and applied projects in public policy and computational social science.\n \n  \n   \n  \n    \n     LinkedIn\n  \n  \n    \n     Github"
   },
   {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "cv",
+    "section": "",
+    "text": "My Skills\n\n\n\n\n\n Back to top"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
@@ -42,20 +49,6 @@
     "text": "Machine Learning\nData Visualization\nNatural Language Processing\nBig Data Analytics\nArtificial Intelligence"
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "cv",
-    "section": "",
-    "text": "My Skills\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
     "objectID": "experience.html",
     "href": "experience.html",
     "title": "Experience",
@@ -63,17 +56,10 @@
     "text": "Research Assistant\n Erasmus School of Social and Behavioural Sciences (ESSB Rotterdam)\nApr 2023 – Present · Rotterdam, NL\n\nDeveloped and managed a comprehensive dataset based on international surveys for an Erasmus+ funded project.\n\nCreated R-scripts in R-Markdown to document data workflows and present findings.\n\nConducted statistical analyses, visualized research results, and contributed to international conferences and scientific journals.\n\nSupported open science initiatives by documenting and sharing code on the Open Science Framework (OSF).\n\n\n\n\nResearch Intern\nErasmus Medical Center\nOct 2019 – Aug 2020 · Rotterdam, NL - Developed and managed a comprehensive dataset based on international surveys for an Erasmus+ funded project.\n- Created R-scripts in R-Markdown to document data workflows and present findings.\n- Conducted statistical analyses, visualized research results, and contributed to international conferences and scientific journals.\n- Supported open science initiatives by documenting and sharing code on the Open Science Framework (OSF).\n\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "experience.html#research-assistant",
-    "href": "experience.html#research-assistant",
-    "title": "Experience",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "Apr 2023 – Present Rotterdam (NL) - Developed and managed a comprehensive dataset based on international surveys for an Erasmus+ funded project. - Created R-scripts in R-Markdown to document data workflows and present findings. - Conducted statistical analyses, visualized research results, and contributed to international conferences and scientific journals. - Supported open science initiatives by documenting and sharing code on platforms like the Open Science Framework (OSF)."
-  },
-  {
-    "objectID": "experience.html#research-intern",
-    "href": "experience.html#research-intern",
-    "title": "Experience",
-    "section": "",
-    "text": "Oct 2019 – Aug 2020 Rotterdam (NL) - Developed and managed a comprehensive dataset based on international surveys for an Erasmus+ funded project. - Created R-scripts in R-Markdown to document data workflows and present findings. - Conducted statistical analyses, visualized research results, and contributed to international conferences and scientific journals. - Supported open science initiatives by documenting and sharing code on platforms like the Open Science Framework (OSF)."
+    "text": "Back to top"
   }
 ]
