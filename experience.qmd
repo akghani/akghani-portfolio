@@ -1,40 +1,42 @@
 ---
-title: "Experience"
-anchor-section: false
+title: ""
+anchor-sections: false
 ---
 
+## {{< fa briefcase >}} Professional Experience
 
-
+::: {.cv-timeline}
 ::: {.cv-entry}
+<div class="cv-left">
+  ![](assets/eur-logo.svg){.cv-logo fig-alt="Erasmus University Rotterdam logo"}  
+  <div class="cv-inst">Erasmus University</div>
+</div>
 
-::: {.d-inline-flex style="align-items:center; gap:1rem;"}
-![](assets/eur-logo.svg){width="100px" fig-alt="Erasmus University Rotterdam logo"}
-**Erasmus School of Social and Behavioural Sciences (ESSB Rotterdam)**
-:::
+<div class="cv-right">
+  [Research Assistant]{.role} · [2023 – 2025]{.cv-date}
 
-[Research Assistant]{.role} · [Apr 2023 – Mar 2025 · Rotterdam, NL]{.cv-date}
-
-- Developed and managed a comprehensive dataset based on international surveys for an Erasmus+ funded project.
-- Created R-scripts in R-Markdown to document data workflows and present findings.
-- Conducted statistical analyses, visualized research results, and contributed to international conferences and scientific journals.
-- Supported open science initiatives by documenting and sharing code on the Open Science Framework (OSF).
-
+  - Developed and managed a comprehensive dataset based on international surveys for an Erasmus+ funded project.
+  - Created R-scripts in R-Markdown to document data workflows and present findings.
+  - Conducted statistical analyses, visualized research results, and contributed to international conferences and scientific journals.
+  - Supported open science initiatives by documenting and sharing code on the Open Science Framework (OSF).
+</div>
 :::
 
 ---
 
 ::: {.cv-entry}
+<div class="cv-left">
+  ![](assets/emc-logo.svg){.cv-logo fig-alt="Erasmus MC logo"}  
+  <div class="cv-inst">Erasmus Medical Center</div>
+</div>
 
-::: {.d-inline-flex style="align-items:center; gap:1rem;"}
-![](assets/emc-logo.svg){width="100px" fig-alt="Erasmus MC logo"}
- **Erasmus Medical Center**
+<div class="cv-right">
+  [Research Intern]{.role} · [2019 – 2020]{.cv-date}
+
+  - Developed and managed a comprehensive dataset based on international surveys for an Erasmus+ funded project.
+  - Created R-scripts in R-Markdown to document data workflows and present findings.
+  - Conducted statistical analyses, visualized research results, and contributed to international conferences and scientific journals.
+  - Supported open science initiatives by documenting and sharing code on the Open Science Framework (OSF).
+</div>
 :::
-
-[Research Intern]{.role} · [Oct 2019 – Aug 2020 · Rotterdam, NL]{.cv-date}
-
-- Developed and managed a comprehensive dataset based on international surveys for an Erasmus+ funded project.
-- Created R-scripts in R-Markdown to document data workflows and present findings.
-- Conducted statistical analyses, visualized research results, and contributed to international conferences and scientific journals.
-- Supported open science initiatives by documenting and sharing code on the Open Science Framework (OSF).
-
 :::

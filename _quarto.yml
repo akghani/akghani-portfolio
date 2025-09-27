@@ -16,7 +16,8 @@ project:
 freeze: auto
 
 website:
-  favicon: assets/favicon.ico
+  favicon: /assets/favicon/favicon.ico 
+  page-navigation: true
   back-to-top-navigation: true
 
   navbar:
@@ -28,8 +29,10 @@ website:
         icon: person-circle
         href: about.qmd
       - text: Experience
+        icon: file-earmark-text-fill
         href: experience.qmd
       - text: Projects
+        icon: puzzle-fill
         href: projects.qmd
       - text: Publications
         href: publications.qmd
