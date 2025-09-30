@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-title-block-banner: assets/title-block-banner.jpeg
+#title-block-banner: assets/title-block-banner.jpeg
 about:
   id: hero-heading
   template: trestles
